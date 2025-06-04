@@ -86876,7 +86876,7 @@ p.toString
 s=J.cw(p,b)
 p=A.bt(8)
 r=t.p
-return A.cx(q,A.ka(!1,q,!0,A.bG(A.a([new A.mF(1.5,A.jU(B.fd,A.le(s.f,q,B.bN,q,1/0),B.bb),q),new A.bf(B.bQ,A.bG(A.a([A.av(s.b,q,q,q,B.cK,q,q),B.aG,A.av("$"+B.d.ad(s.c,2),q,q,q,B.He,q,q),B.aG,A.av("Metacritic: "+A.j(s.d),q,q,q,B.c4,q,q)],r),B.P,B.x,B.y),q)],r),B.P,B.x,B.y),q,!0,q,q,q,q,q,q,q,q,q,new A.ars(s,a),q,q,q,q,q,q,q),B.v,q,q,new A.bL(B.at,q,q,p,q,q,B.U),q,q,q,q,q,q,q,q)},
+return A.cx(q,A.ka(!1,q,!0,A.bG(A.a([new A.mF(1.5,A.jU(B.fd,A.le(s.f,q,B.bN,q,1/0),B.bb),q),new A.bf(B.bQ,A.bG(A.a([A.av(s.b,q,q,q,B.cK,q,q),B.aG,A.av(B.d.ad(s.c,2)+"\u20ac",q,q,q,B.He,q,q),B.aG,A.av("Metacritic: "+A.j(s.d),q,q,q,B.c4,q,q)],r),B.P,B.x,B.y),q)],r),B.P,B.x,B.y),q,!0,q,q,q,q,q,q,q,q,q,new A.ars(s,a),q,q,q,q,q,q,q),B.v,q,q,new A.bL(B.at,q,q,p,q,q,B.U),q,q,q,q,q,q,q,q)},
 $S:46}
 A.ars.prototype={
 $0(){var s=A.eA(this.a.b," ","-")
@@ -87615,7 +87615,7 @@ s=s.d
 if(s!=null)s.m(0,"imageId",this.c)},
 $S:0}
 A.avO.prototype={
-$2(a,b){var s=null,r=J.cw(this.a.y,b),q=J.b8(r),p=A.a([A.av("Pedido ID: "+A.j(q.h(r,"orderId")),s,s,s,B.dC,s,s),B.aG,A.av("Fecha: "+A.j(q.h(r,"fecha")),s,s,s,B.c4,s,s),B.aG,A.av("Precio Total: $"+J.aGD(q.h(r,"precio"),2),s,s,s,B.c4,s,s),B.b7,B.Hn],t.p)
+$2(a,b){var s=null,r=J.cw(this.a.y,b),q=J.b8(r),p=A.a([A.av("Pedido ID: "+A.j(q.h(r,"orderId")),s,s,s,B.dC,s,s),B.aG,A.av("Fecha: "+A.j(q.h(r,"fecha")),s,s,s,B.c4,s,s),B.aG,A.av("Precio Total: "+J.aGD(q.h(r,"precio"),2)+"\u20ac",s,s,s,B.c4,s,s),B.b7,B.Hn],t.p)
 B.b.W(p,A.il(J.aRa(q.h(r,"games"),new A.avN()),!0,t.l7))
 return A.yq(new A.bf(B.fB,A.bG(p,B.P,B.x,B.y),s),B.aL,B.dM,s)},
 $S:227}
@@ -88067,7 +88067,7 @@ return A.A2(new A.o1(s,16,16,q/(q/0.75)),new A.ayq(p),J.cd(p),B.po,null,!1)},
 $S:104}
 A.ayq.prototype={
 $2(a,b){var s=null,r=J.cw(this.a,b),q=A.bt(8),p=t.p
-return A.cx(s,A.ka(!1,s,!0,A.bG(A.a([new A.mF(1.5,A.jU(B.fd,A.le(r.f,new A.ayo(),B.bN,s,1/0),B.bb),s),new A.bf(B.bQ,A.bG(A.a([A.av(r.b,2,B.aC,s,B.kb,s,s),B.aG,A.av("$"+B.d.ad(r.c,2),s,s,s,B.Hg,s,s),B.aG,A.av("Metacritic: "+A.j(r.d),s,s,s,B.Hj,s,s)],p),B.P,B.x,B.y),s)],p),B.P,B.x,B.y),s,!0,s,s,s,s,s,s,s,s,s,new A.ayp(r,a),s,s,s,s,s,s,s),B.v,s,s,new A.bL(B.at,s,s,q,s,s,B.U),s,s,s,s,s,s,s,s)},
+return A.cx(s,A.ka(!1,s,!0,A.bG(A.a([new A.mF(1.5,A.jU(B.fd,A.le(r.f,new A.ayo(),B.bN,s,1/0),B.bb),s),new A.bf(B.bQ,A.bG(A.a([A.av(r.b,2,B.aC,s,B.kb,s,s),B.aG,A.av(B.d.ad(r.c,2)+"\u20ac",s,s,s,B.Hg,s,s),B.aG,A.av("Metacritic: "+A.j(r.d),s,s,s,B.Hj,s,s)],p),B.P,B.x,B.y),s)],p),B.P,B.x,B.y),s,!0,s,s,s,s,s,s,s,s,s,new A.ayp(r,a),s,s,s,s,s,s,s),B.v,s,s,new A.bL(B.at,s,s,q,s,s,B.U),s,s,s,s,s,s,s,s)},
 $S:46}
 A.ayp.prototype={
 $0(){var s=A.eA(this.a.b," ","-")
